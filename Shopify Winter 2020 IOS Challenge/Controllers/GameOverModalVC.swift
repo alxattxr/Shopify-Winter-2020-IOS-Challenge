@@ -20,6 +20,6 @@ class GameOverModalVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        winnerMessageLabel.text = "Congradulations to \(player)"
+        winnerMessageLabel.text = "congratulations to \(player)"
     }
 }
