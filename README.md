@@ -17,7 +17,6 @@ to keep track of each player's score. The cards are always randomly place on the
 
 ![Simulator Screen Shot - iPhone Xs - 2019-09-23 at 07 32 28](https://user-images.githubusercontent.com/50662248/65422477-92f75a00-ddd4-11e9-92b9-0f7fb0f4c1e2.png)
 
-![Simulator Screen Shot - iPhone Xs - 2019-09-23 at 06 45 42](https://user-images.githubusercontent.com/50662248/65421847-cd5ff780-ddd2-11e9-906b-275529b4133e.png)
+![Simulator Screen Shot - iPhone Xs - 2019-09-23 at 04 51 20](https://user-images.githubusercontent.com/50662248/65422591-f5505a80-ddd4-11e9-823c-6630c127af4e.png)
 
-![Simulator Screen Shot - iPhone Xs - 2019-09-23 at 04 48 46](https://user-images.githubusercontent.com/50662248/65421851-d05ae800-ddd2-11e9-887d-15601a20c779.png)
- 
+![Simulator Screen Shot - iPhone Xs - 2019-09-23 at 06 45 42](https://user-images.githubusercontent.com/50662248/65421847-cd5ff780-ddd2-11e9-906b-275529b4133e.png)
