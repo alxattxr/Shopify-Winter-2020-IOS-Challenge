@@ -181,7 +181,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="aSb-zK-3ot"/>
                                     <constraint firstAttribute="width" secondItem="93o-Sl-zRQ" secondAttribute="height" multiplier="1:1" id="f2v-Ak-EIr"/>
                                 </constraints>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Start">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -208,8 +208,8 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xv-Y2-32J">
                                         <rect key="frame" x="0.0" y="50" width="414" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Player 2" borderStyle="roundedRect" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fNG-ob-OBd">
@@ -227,10 +227,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="lIC-jO-nHt">
-                                <rect key="frame" x="28.5" y="371" width="357" height="164.5"/>
+                                <rect key="frame" x="4.5" y="371" width="405" height="163.5"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="FTo-rN-baD">
-                                        <rect key="frame" x="0.0" y="0.0" width="357" height="29"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="405" height="29"/>
                                         <segments>
                                             <segment title="Easy"/>
                                             <segment title="Medium"/>
@@ -240,23 +240,23 @@
                                             <action selector="segmentSelected:" destination="BYZ-38-t0r" eventType="valueChanged" id="70K-5R-0k7"/>
                                         </connections>
                                     </segmentedControl>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*2 and 3 card combos possible" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lvr-es-Keh">
-                                        <rect key="frame" x="0.0" y="43" width="357" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*2, 3 and even 4 cards combo possible" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lvr-es-Keh">
+                                        <rect key="frame" x="0.0" y="43" width="405" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="i8b-Y0-jbS">
-                                        <rect key="frame" x="0.0" y="78.5" width="357" height="41"/>
+                                        <rect key="frame" x="0.0" y="77.5" width="405" height="41"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of pair to win:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmQ-8m-BlV">
-                                                <rect key="frame" x="0.0" y="0.0" width="357" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="405" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUQ-LU-K6l">
-                                                <rect key="frame" x="0.0" y="20.5" width="357" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="20.5" width="405" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -264,7 +264,10 @@
                                         </subviews>
                                     </stackView>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="10" maxValue="15" translatesAutoresizingMaskIntoConstraints="NO" id="lMY-hf-gQs">
-                                        <rect key="frame" x="-2" y="134.5" width="361" height="31"/>
+                                        <rect key="frame" x="-2" y="133.5" width="409" height="31"/>
+                                        <color key="minimumTrackTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <action selector="changeCardsNumber:" destination="BYZ-38-t0r" eventType="valueChanged" id="4nR-lA-OAY"/>
                                         </connections>

@@ -75,7 +75,7 @@ class MainMenuVC: UIViewController {
         startGameButton.layer.borderColor = UIColor.white.cgColor
         startGameButton.layer.borderWidth = 1
         startGameButton.layer.cornerRadius = startGameButton.frame.width/2
-        hiddenMessage.isHidden = true
+        hiddenMessage.textColor = UIColor.clear
         self.hideKeyboardWhenTappedAround()
         
         //Data fetching and passing reponse to array of Card
@@ -90,7 +90,6 @@ class MainMenuVC: UIViewController {
         
             if let products = products {
                 for prod in products.products {
-                    
                     DispatchQueue.global().async {
                         let data = try? Data(contentsOf: URL(string: prod.image.src)!)
                             DispatchQueue.main.async {
